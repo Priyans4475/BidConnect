@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "206920874854",
+    "project_id": "bidconnect-85b36",
+    "storage_bucket": "bidconnect-85b36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206920874854:android:3f37f52ed0bb23b45066a7",
+        "android_client_info": {
+          "package_name": "com.example.homepage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206920874854-j0i8gijjuecd7lm3td5fmv1hlll6o394.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBii96b3eM5H5-Pr0ADe1fgakK2PHVIu0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206920874854-j0i8gijjuecd7lm3td5fmv1hlll6o394.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

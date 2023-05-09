@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_page"
+    tools:context=".listing">
+
+    <TextView
+        android:id="@+id/item_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give Item Details"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="130dp"
+        >
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view11"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/item_detail"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="30dp"
+
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Item Name"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+
+            >
+
+        </EditText>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view12"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/card_view11"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Price Quotes"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+
+            >
+
+        </EditText>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view13"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/card_view12"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+
+            >
+
+        </EditText>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view14"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/card_view13"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Warrenty"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+
+            >
+
+        </EditText>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Submit"
+        android:layout_below="@id/card_view14"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/browser_actions_bg_grey"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+
+
+</RelativeLayout>
